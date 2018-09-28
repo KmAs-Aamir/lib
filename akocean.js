@@ -12,35 +12,35 @@ function kmasCodeColor() {
   }
 }
 function kmasCodeColorize(x, lang) {
-  var tagcolor = "blue";
-  var tagnamecolor = "maroon";
+  var tagcolor = "green";
+  var tagnamecolor = "blue";
   var attributecolor = "Coral";
-  var attributevaluecolor = "blue";
+  var attributevaluecolor = "green";
   var commentcolor = "green";
-  var cssselectorcolor = "maroon";
+  var cssselectorcolor = "blue";
   var csspropertycolor = "Coral";
-  var csspropertyvaluecolor = "blue";
+  var csspropertyvaluecolor = "green";
   var cssdelimitercolor = "black";
   var cssimportantcolor = "Coral";  
   var jscolor = "black";
-  var jskeywordcolor = "blue";
-  var jsstringcolor = "maroon";
+  var jskeywordcolor = "green";
+  var jsstringcolor = "blue";
   var jsnumbercolor = "Coral";
   var jspropertycolor = "black";
   var phptagcolor = "Coral";
   var phpcolor = "black";
-  var phpkeywordcolor = "blue";
+  var phpkeywordcolor = "green";
   var phpglobalcolor = "goldenrod";
-  var phpstringcolor = "maroon";
+  var phpstringcolor = "blue";
   var phpnumbercolor = "Coral";  
   var pythoncolor = "black";
-  var pythonkeywordcolor = "blue";
-  var pythonstringcolor = "maroon";
+  var pythonkeywordcolor = "green";
+  var pythonstringcolor = "blue";
   var pythonnumbercolor = "Coral";  
   var angularstatementcolor = "Coral";
   var sqlcolor = "black";
-  var sqlkeywordcolor = "blue";
-  var sqlstringcolor = "maroon";
+  var sqlkeywordcolor = "green";
+  var sqlstringcolor = "blue";
   var sqlnumbercolor = "";  
   if (!lang) {lang = "html"; }
   if (lang == "html") {return htmlMode(x);}
